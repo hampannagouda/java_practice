@@ -4,9 +4,7 @@ public class prime_num{
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
 		System.out.println("enter the name");
-		int n = in.nextInt();
-		for(int i = n;i<100;i++) {
-			 int num = i;
+		int num = in.nextInt();
 			 if(num <= 1) {
 				 System.out.println("num is not prime"+num);
 			 }else {
@@ -24,4 +22,3 @@ public class prime_num{
 			 }
 		}
 	}
-}
