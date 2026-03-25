@@ -1,5 +1,4 @@
 package java_practice;
-
 public class Sample {
 	static{
 	System.out.println("static member of the class Sample");
