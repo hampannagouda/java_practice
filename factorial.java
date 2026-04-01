@@ -8,6 +8,7 @@ public class factorial {
 		System.out.println("enter the number :");
 		int num = in.nextInt();
 		System.out.println("the factorial of a number is :"+fact(num));
+		in.close();
 	}
 	static int fact(int num) {
 		if(num == 1)return 1;

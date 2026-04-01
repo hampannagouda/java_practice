@@ -13,6 +13,7 @@ public class RevNum {
 			num /= 10;
 		}
 		System.out.println(rev);
+		in.close();
 		
 	}
 

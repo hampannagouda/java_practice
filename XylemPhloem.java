@@ -21,6 +21,7 @@ public class XylemPhloem {
 			System.out.println("the number is xylem");
 		}else {
 			System.out.println("the number is pholem");
-		}		
+		}	
+		in.close();
 	}
 }

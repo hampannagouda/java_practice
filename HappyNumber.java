@@ -19,6 +19,7 @@ public class HappyNumber {
 		}else {
 			System.out.println("the entered number is not happy number");
 		}
+		in.close();
 	}
 	static int summation(int num) {
 		int sum = 0;

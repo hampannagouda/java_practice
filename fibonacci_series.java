@@ -15,6 +15,7 @@ public class fibonacci_series {
 		start = sec;
 		sec = next;
 	}
+	in.close();
 }
 }
 class fibo_nth_num{

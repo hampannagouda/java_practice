@@ -11,6 +11,7 @@ public class perfect_number {
 		}else {
 			System.out.println("the number is not perfect number");
 		}
+		in.close();
 		
 	}
 	static int factSum(int num) {

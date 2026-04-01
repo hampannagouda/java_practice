@@ -8,6 +8,7 @@ public class IntegerToBinary {
 		System.out.println("enter the number :");
 		int num = in.nextInt();
 		System.out.println("the binary of the number is :"+toBinary(num));
+		in.close();
 	}
 	static String toBinary(int num) {
 		String s = "";

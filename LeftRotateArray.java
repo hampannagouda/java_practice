@@ -25,5 +25,6 @@ public class LeftRotateArray {
 			arr[arr.length-1] = first;
 		}
 		System.out.println(Arrays.toString(arr));
+		in.close();
 	}
 }

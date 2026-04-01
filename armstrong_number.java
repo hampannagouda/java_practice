@@ -15,6 +15,7 @@ public class armstrong_number {
 		}else {
 			System.out.println("the number is not armstrong number");
 		}
+		in.close();
 	}
 	static int count(int num) {
 		int count = 0;

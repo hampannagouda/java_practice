@@ -6,6 +6,7 @@ public class pallindromCheck {
 			Scanner in = new Scanner(System.in);
 			System.out.print("enter thr number: ");
 			int num = in.nextInt();
+			in.close();
 			int copy = num;
 			int rev = 0;
 			while(num != 0) {
@@ -19,6 +20,7 @@ public class pallindromCheck {
 				System.out.println("the number not is pallindrom");
 			
 		}
+		
 
 	}
 

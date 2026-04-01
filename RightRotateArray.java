@@ -26,6 +26,7 @@ public class RightRotateArray {
 				arr[0] = last;
 			}
 			System.out.println(Arrays.toString(arr));
+			in.close();
 		}
 
 }

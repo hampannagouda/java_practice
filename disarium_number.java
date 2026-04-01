@@ -14,6 +14,7 @@ public class disarium_number {
 			}else {
 				System.out.println("the number is not disarium number");
 			}
+			in.close();
 		}
 		static int count(int num) {
 			int count = 0;

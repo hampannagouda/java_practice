@@ -30,5 +30,6 @@ class demo extends linearSearch{
 		if(target < 0 )System.out.println("element not found");
 		else
 			System.out.println("element found at index of "+target);
+		in.close();
 	}
 }

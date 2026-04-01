@@ -20,6 +20,7 @@ public class strong_number {
 			}else {
 				System.out.println("the given number is not perfect number :"+copy);
 			}
+			in.close();
 		}
 		
 		

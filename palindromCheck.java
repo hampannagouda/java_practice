@@ -12,6 +12,7 @@ public class palindromCheck {
 		for(int i=0;i<arr.length;i++) {
 			arr[i] = in.nextInt();
 		}
+		in.close();
 		int i=0;int j=arr.length-1;
 		while(i<j) {
 			if(arr[i++] != arr[j--]) {
@@ -20,5 +21,6 @@ public class palindromCheck {
 			}
 		}
 		System.out.println("is a palindrome");
+		in.close();
 	}
 }

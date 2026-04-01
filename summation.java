@@ -12,6 +12,7 @@ public class summation {
 	}
 	System.out.println("the sum of number"+num);
 	System.out.println("the sum of Square of number"+num2);	
+	in.close();
 }
 static int NumSumm(int n) {
 	int sum = 0;
