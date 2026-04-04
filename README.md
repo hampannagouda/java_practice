@@ -1,4 +1,4 @@
-# Java Practice Programs
+# Java Practice Programs 
 
 This repository contains a collection of basic to intermediate Java programs for practicing logic and mathematical operations. Each file focuses on a specific number property, series, or mathematical calculation.
 
